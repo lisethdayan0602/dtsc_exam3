@@ -1,0 +1,12 @@
+  1. A version control system is a tool that allows companies and developers to work on the same project or repository at the same time no matter where they are. All of the contributes can make changes to codes or add new files without altering the remote repository (the project) until all the changes are ready to merge. Version control systems are importance to companies and developers because they let them to work at the same time saving time and money. Moreover, version control systems allows each contributor to have a local repository, this means that with it, they are able to see what changes were made by others developers and not do the same work.    
+2. Git is a language that allows to make changes, add files, or alter codes. While GitHub is a website where we can share those changes with other developers or contributors.
+
+3. I think the Git workflow is. First it ables to create new repos, altering codes, ans also deletes stuff, but also you can save all the changes in the staging area, and then committed those changes to push them later to Github.
+
+4. I use a branch when I want to contribute to a project without affecting the original branch. I use a branch because I want to make sure that all the changes I did worked properly before merging. 
+5. The difference between forking and cloning is that forking allows you not only to see all the files and changes made to files or codes, but also allows you to contribute with the project. With cloning, we are just able to see all the files and changes in the remote repository, but we cannot contribute to the project.
+6. I would use git remote -v to verify in what remote repository I am.
+
+7. The problem with tables is that all of them are missing the (,), also there  are some queries that are missing the "category type" of the column information. For example table # 3. student_id and course_id do not have INTEGER, as well as student _grade do not have VARCHAR. Also there are some columns that do not have PRIMARY KEYS and all of the columns are missing the foreing key. 
+
+8. The problem is that I would not be able to see what students are in certain building, because the tables are missing the foreing key.  
