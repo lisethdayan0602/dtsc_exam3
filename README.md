@@ -18,5 +18,5 @@
 
 ### For the following questions, use part3.sql.  You should NOT need to run any SQL queries.
 * Assume all information in part3.sql that is not explicitly in the ChinookDB schema is accurate.  For example, assume the genre 'Punk' exists.
-10.  For each of the SQL queries, correct errors.  Note, there is not necessary an error in each one.
-11.  In part3.sql, add the syntax to select composers for the artist 'Insane Clown Posse'.
+10.  For each of the SQL queries, correct errors.  Note, there is not necessary an error in each one. (5 points)
+11.  In part3.sql, add the syntax to select composers for the artist 'Insane Clown Posse'. (4 points)
