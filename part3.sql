@@ -2,17 +2,27 @@
 SELECT *
 FROM customer;
 
-SELECT LastName, firstname, address
-FROM Employee;
+SELECT lastname, firstname, address
+FROM employee;
 
-SELECT Track.Name, Album.title
-FROM Track
-LEFT JOIN Album
-on Track.AlbumId = Album.AlbumId;
+SELECT track.Name, album.title
+FROM track
+LEFT JOIN album
+ON track.albumId = album.albumId;
 
-SELECT t.Name, a.Title, ar.Name
-FROM Track as t
-LEFT JOIN Album as a
-on t.AlbumId = a.AlbumId
-LEFT JOIN Artist
-where GenreName = 'Punk';
+SELECT track.name, album.title, artist.name
+FROM track as t
+LEFT JOIN album as a
+ON track.albumid = album.albumid
+LEFT JOIN artist
+ON album.artistid = artist.artistid
+WHERE name = 'Punk';
+
+SELECT composer 
+FROM track
+LEFT JOIN album
+ON track.albumid = album.albumid
+LEFT JOIN artist
+ON album.artisid = artist.artistid
+WHERE composer = 'Insame Clown Pose';
+
