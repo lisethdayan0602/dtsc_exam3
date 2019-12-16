@@ -26,3 +26,12 @@ CREATE TABLE location (
     building varchar
     room integer
 );
+
+
+
+CREATE TABLE student_contact (
+	student_contat_name varchar PRIMARY KEY,
+    student_contact_phone varchar,
+	student_id INTEGER
+	);
+
